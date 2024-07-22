@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "async-python-study"
+version = "0.1.0"
+description = ""
+authors = ["icehongssii <icehongssii@gmail.com>"]
+readme = "README.md"
+packages = [{include = "async_python_study"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^24.4.2"
+flask = "^3.0.3"
+requests = "^2.32.3"
+aiohttp = "^3.9.5"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
